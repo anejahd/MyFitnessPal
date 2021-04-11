@@ -26,6 +26,7 @@ public class FPFoodDiary extends BasePageObject {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(buttonAddFood)).click();
 		System.out.println("Hey");
+		System.out.println("Testing");
 		
 	}
 
