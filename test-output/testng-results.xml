@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16752" started-at="2021-04-09T19:46:26 EDT" finished-at="2021-04-09T19:46:43 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16752" started-at="2021-04-09T19:46:26 EDT" finished-at="2021-04-09T19:46:43 EDT">
+      <class name="com.packt.tests.MyFitnessPalTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.MyFitnessPalTest@6acdbdf5]" name="setUp" is-config="true" duration-ms="2860" started-at="2021-04-09T19:46:26 EDT" finished-at="2021-04-09T19:46:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="firstTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.MyFitnessPalTest@6acdbdf5]" name="firstTest" duration-ms="13515" started-at="2021-04-09T19:46:29 EDT" data-provider="myFitnessPalLogin" finished-at="2021-04-09T19:46:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anejahd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Koolkid12!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.MyFitnessPalTest@6acdbdf5]" name="tearDown" is-config="true" duration-ms="318" started-at="2021-04-09T19:46:43 EDT" finished-at="2021-04-09T19:46:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.MyFitnessPalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
