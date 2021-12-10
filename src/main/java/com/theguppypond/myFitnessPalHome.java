@@ -20,7 +20,7 @@ public class myFitnessPalHome extends BasePageObject {
 			.xpath("/html//div[@id='app']/div/div/div//div[@class='jss22']//a[@href='/account/login']");
 	
 	
-	//changed myFitnessCindition
+	//changed myFitnessCindition change
 	By myFitnessTermsCondition = By.xpath("//div[@id='__next']//div[@role='alert']/div/button[2]/div[.='GOT IT']");
 	
 	
