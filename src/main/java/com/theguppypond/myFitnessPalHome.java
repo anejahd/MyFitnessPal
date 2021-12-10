@@ -19,6 +19,8 @@ public class myFitnessPalHome extends BasePageObject {
 	By FPhomepageloginButtonLocator = By
 			.xpath("/html//div[@id='app']/div/div/div//div[@class='jss22']//a[@href='/account/login']");
 	
+	
+	//changed myFitnessCindition
 	By myFitnessTermsCondition = By.xpath("//div[@id='__next']//div[@role='alert']/div/button[2]/div[.='GOT IT']");
 	
 	
