@@ -23,7 +23,8 @@ public class BaseTest {
 		System.out.println("[Setting up Webdriver: " + browser + "]");
 		// some code here
 
-		System.setProperty("webdriver.chrome.driver", "/Users/anejahdaniels/GitHub/CRMAutomatedEntry/chromedriver");
+		System.setProperty("webdriver.chrome.driver", 
+				"/Users/ANEJAHDANIELS/ChromeDriver/chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 

@@ -19,7 +19,7 @@ public class myFitnessPalHome extends BasePageObject {
 	By FPhomepageloginButtonLocator = By
 			.xpath("/html//div[@id='app']/div/div/div//div[@class='jss22']//a[@href='/account/login']");
 	
-	By myFitnessTermsCondition = By.cssSelector(".jss109 .MuiButton-label");
+	By myFitnessTermsCondition = By.xpath("//div[@id='__next']//div[@role='alert']/div/button[2]/div[.='GOT IT']");
 	
 	
 	public myFitnessPalHome(WebDriver driver) {
