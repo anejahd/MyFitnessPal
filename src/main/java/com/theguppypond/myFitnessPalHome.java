@@ -17,7 +17,7 @@ public class myFitnessPalHome extends BasePageObject {
 	private String FPhomePageUrl = "https://www.myfitnesspal.com/";
 	
 	By FPhomepageloginButtonLocator = By
-			.xpath("/html//div[@id='app']/div/div/div//div[@class='jss22']//a[@href='/account/login']");
+			.xpath("/html//div[@id='__next']//a[@href='/en/account/login']/span[.='Log In']");
 	
 	
 	//changed myFitnessCindition changes

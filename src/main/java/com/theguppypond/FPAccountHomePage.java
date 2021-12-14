@@ -34,6 +34,13 @@ public class FPAccountHomePage extends BasePageObject {
 		Assert.assertEquals(expectedTitle,actualTitle);
 	}
 	
+	public void verifyDisplayName() {
+		String fpName = "anejahd";
+		String fpexpectedName = "anejahd";
+		Assert.assertEquals(fpName, fpexpectedName);
+		
+	}
+	
 	public void getSourcePage() {
 		boolean fpPageSource = driver.getPageSource().contains("ember1654");
 		System.out.println(fpPageSource);

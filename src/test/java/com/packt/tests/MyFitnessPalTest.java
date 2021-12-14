@@ -26,7 +26,8 @@ public class MyFitnessPalTest extends BaseTest {
 				 };
 	}
 	
-	By myFitnessCookies = By.xpath("//html//div[@id='app']/div//div[@class='jss109']/button[2]//div[.='GOT IT']");
+	// By myFitnessCookies = By.xpath("//html//div[@id='app']/div//div[@class='jss109']/button[2]//div[.='GOT IT']");
+	// TODO: Create a smoke test 
 	
 	@Test
 	(dataProvider = "myFitnessPalLogin")
